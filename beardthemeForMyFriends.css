@@ -49,7 +49,12 @@
 .avatar-profile[style*="avatars/285232950595813376"]::before,
 .avatar-profile[style*="avatars/285232950595813376"]::after,
   .avatar-large[style*="avatars/285232950595813376"]+.comment .timestamp::before,
-  .avatar-large[style*="avatars/285232950595813376"]+.comment .timestamp::after{
+  .avatar-large[style*="avatars/285232950595813376"]+.comment .timestamp::after,
+/*vamparic#6177*/
+.avatar-profile[style*="avatars/215963999831851018"]::before,
+.avatar-profile[style*="avatars/215963999831851018"]::after,
+  .avatar-large[style*="avatars/215963999831851018"]+.comment .timestamp::before,
+  .avatar-large[style*="avatars/215963999831851018"]+.comment .timestamp::after{
     display:inline-block!important
 }
 
